@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Table</title>
+
+    <style>
+        table,tr,td,th{
+             border: 2px black solid;
+             border-collapse: collapse;
+             padding: 10px;
+
+        }
+
+        tr{
+            text-align: center;
+        }
+
+        tr:nth-child(odd){
+            background-color: #f1f1f1;
+        }
+
+
+        tr:hover{
+            background-color: #ddd;
+        }
+
+     
+      
+
+        th{
+            background-color: green;
+            color: white;
+        }
+
+        table{
+            margin: 0px auto;
+            font-size: 1.5em;
+            width: 70%;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Ad
+                </th>
+                <th>
+                    Departman
+                </th>
+                <th>
+                   Maaş
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Atakan</td>
+                <td>Höbek</td>
+                <td>60000</td>
+            </tr>
+
+            <tr>
+                <td>Hilal</td>
+                <td>Arslan</td>
+                <td>40000</td>
+            </tr>
+
+            <tr>
+                <td>Zeynep</td>
+                <td>Höbek</td>
+                <td>25000</td>
+            </tr>
+
+            <tr>
+                <td>Levi</td>
+                <td>Höbek</td>
+                <td>10000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
